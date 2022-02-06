@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Teko;
+    src: url(../Teko-Regular.ttf);
+  }
+  @font-face {
+    font-family: poppin;
+    src: url(../Poppins-Bold.ttf);
+  }
+  .h1-3dbulls{
+      font-family: Teko;
+      font-size: 100px;
+      color: #e4bf46;
+  }
+  .Bear-eater{
+      font-size: 60px;
+      color: #fff;
+      font-family: Teko;      
+  }
+  .bull-text{
+    
+        
+        color: rgb(197, 197, 197);
+        font-weight: 300;
+        font-size: 16px;
+        text-align: justify;
+        margin: 5px 0px;
+     
+
+  }
+  .h1-3dbullsd{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    font-family: Teko;     
+}

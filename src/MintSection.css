@@ -1,0 +1,136 @@
+/** @format */
+
+@font-face {
+	font-family: Teko;
+	src: url(Teko-Regular.ttf);
+}
+@font-face {
+	font-family: poppin;
+	src: url(Poppins-Medium.ttf);
+}
+.red {
+	color: red;
+}
+.teko {
+	font-family: Teko;
+}
+.poppin {
+	font-family: poppin;
+}
+.mintHeading {
+	font-weight: "bold";
+	color: white;
+	font-family: Teko;
+	font-size: 40px;
+	letter-spacing: normal;
+}
+.mintSecondHeading {
+	font-weight: "bold";
+	color: white;
+	font-family: Teko;
+	font-size: 35px;
+}
+
+.mintCounterBtn {
+	background-color: black;
+	border-color: white;
+}
+.mintButton {
+	position: relative;
+	display: inline-block;
+	padding: 15px 30px;
+	color: #2196f3;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 24px;
+	overflow: hidden;
+	transition: 0.2s;
+	width: 100%;
+	margin-top: 5%;
+	background-color: transparent;
+	font-weight: bolder;
+}
+.mintButton:hover {
+	color: #ecf1f5;
+	background: #2196f3;
+	box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+	transition-delay: 1s;
+}
+.viewButton {
+	background: #dda77e;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #383838;
+	width: 20%;
+	margin-top: 2%;
+	border: 1px solid black;
+	color: white;
+}
+.metaMaskButton {
+	border-radius: 10px;
+	box-shadow: 0 0 10px #383838;
+	width: 100%;
+	/* margin-top: 1%;  */
+	border: 1px solid black;
+	color: white;
+	font-size: 20px;
+}
+.refernceButton {
+	border-radius: 10px;
+	box-shadow: 0 0 10px #383838;
+	width: 100%;
+	/* margin-top: 1%;  */
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	font-size: 20px;
+}
+.counterButton {
+	background-color: black;
+	border-right-color: white;
+	border-top: none;
+	border-left: none;
+	border-bottom: none;
+	width: 30%;
+	color: white;
+}
+.rightCounterButton {
+	background-color: black;
+	border-left: 1px solid white;
+	border-top: none;
+	border-right: none;
+	border-bottom: none;
+	width: 30%;
+	color: white;
+}
+.white {
+	color: white;
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+	.metaMaskButton {
+		border-radius: 10px;
+		box-shadow: 0 0 10px #383838;
+
+		/* margin-top: 1%;  */
+		border: 1px solid black;
+		color: white;
+		font-size: 20px;
+	}
+	.mintHeading {
+		font-weight: "bold";
+		color: white;
+		font-family: Teko;
+		font-size: 30px;
+		letter-spacing: normal;
+	}
+	.mintSecondHeading {
+		font-weight: "bold";
+		color: white;
+		font-family: Teko;
+		font-size: 30px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+}
+@media (min-width: 768px) and (max-width: 1500px) {
+}
